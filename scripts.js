@@ -3,6 +3,7 @@ var button = document.getElementById('get-joke');
 button.addEventListener('click', function(){
   getJoke();
 });
+
 var paragraph = document.getElementById('joke');
 function getJoke() {
   var xhr = new XMLHttpRequest();
